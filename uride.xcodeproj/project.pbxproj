@@ -15,6 +15,12 @@
 		4E52E4F21FE51DC000292FCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E52E4F01FE51DC000292FCF /* LaunchScreen.storyboard */; };
 		4E52E4FD1FE51DC000292FCF /* urideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52E4FC1FE51DC000292FCF /* urideTests.swift */; };
 		4E52E5081FE51DC000292FCF /* urideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52E5071FE51DC000292FCF /* urideUITests.swift */; };
+		4E6C14D51FEA33410064313F /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C14D41FEA33410064313F /* SigninVC.swift */; };
+		4EB095E72010E40B00F01F75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EB095E62010E40B00F01F75 /* GoogleService-Info.plist */; };
+		4EB095EA2010E9AB00F01F75 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB095E92010E9AB00F01F75 /* AuthProvider.swift */; };
+		616AA8245BF948EDDC9B8213 /* Pods_uride.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B228D428F7E72487EB5C7E /* Pods_uride.framework */; };
+		7EA974273A0C5A93ED6F35D8 /* Pods_urideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D8E8BAEB89A041AF8EB632 /* Pods_urideTests.framework */; };
+		F155E7FE533F130CFE533689 /* Pods_urideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E123D0339EBAD6C503F4E5 /* Pods_urideUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09E123D0339EBAD6C503F4E5 /* Pods_urideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_urideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B228D428F7E72487EB5C7E /* Pods_uride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E52E4E11FE51DC000292FCF /* uride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E52E4E41FE51DC000292FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E52E4E61FE51DC000292FCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		4E52E5031FE51DC000292FCF /* urideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = urideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E52E5071FE51DC000292FCF /* urideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = urideUITests.swift; sourceTree = "<group>"; };
 		4E52E5091FE51DC000292FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E6C14D41FEA33410064313F /* SigninVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		4EB095E62010E40B00F01F75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EB095E92010E9AB00F01F75 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		67B59EBF64DB74EBC107531B /* Pods-urideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urideUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-urideUITests/Pods-urideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AF4DFA14438DBA2A5740E5C /* Pods-urideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-urideTests/Pods-urideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		744A9BA9159ABD5B56D307A0 /* Pods-urideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urideUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-urideUITests/Pods-urideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A031973A61AEFA32358ADD4E /* Pods-uride.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uride.release.xcconfig"; path = "Pods/Target Support Files/Pods-uride/Pods-uride.release.xcconfig"; sourceTree = "<group>"; };
+		A0F420DE1D5174938515DF9B /* Pods-urideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-urideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-urideTests/Pods-urideTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACBF58C197B6B63091A83B58 /* Pods-uride.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uride.debug.xcconfig"; path = "Pods/Target Support Files/Pods-uride/Pods-uride.debug.xcconfig"; sourceTree = "<group>"; };
+		F8D8E8BAEB89A041AF8EB632 /* Pods_urideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_urideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				616AA8245BF948EDDC9B8213 /* Pods_uride.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EA974273A0C5A93ED6F35D8 /* Pods_urideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F155E7FE533F130CFE533689 /* Pods_urideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		078D4D09865B6BC423364E8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12B228D428F7E72487EB5C7E /* Pods_uride.framework */,
+				F8D8E8BAEB89A041AF8EB632 /* Pods_urideTests.framework */,
+				09E123D0339EBAD6C503F4E5 /* Pods_urideUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F3507513263584B4F99AE3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBF58C197B6B63091A83B58 /* Pods-uride.debug.xcconfig */,
+				A031973A61AEFA32358ADD4E /* Pods-uride.release.xcconfig */,
+				6AF4DFA14438DBA2A5740E5C /* Pods-urideTests.debug.xcconfig */,
+				A0F420DE1D5174938515DF9B /* Pods-urideTests.release.xcconfig */,
+				67B59EBF64DB74EBC107531B /* Pods-urideUITests.debug.xcconfig */,
+				744A9BA9159ABD5B56D307A0 /* Pods-urideUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4E52E4D81FE51DC000292FCF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				4E52E4FB1FE51DC000292FCF /* urideTests */,
 				4E52E5061FE51DC000292FCF /* urideUITests */,
 				4E52E4E21FE51DC000292FCF /* Products */,
+				2F3507513263584B4F99AE3F /* Pods */,
+				078D4D09865B6BC423364E8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +145,10 @@
 		4E52E4E31FE51DC000292FCF /* uride */ = {
 			isa = PBXGroup;
 			children = (
+				4EB095E82010E98200F01F75 /* Plugins */,
+				4E6C14D31FEA32C10064313F /* Controller */,
+				4E6C14D21FEA32B90064313F /* View */,
+				4E6C14D11FEA32A80064313F /* Model */,
 				4E52E4E41FE51DC000292FCF /* AppDelegate.swift */,
 				4E52E4E61FE51DC000292FCF /* ViewController.swift */,
 				4E52E4E81FE51DC000292FCF /* Main.storyboard */,
@@ -106,6 +156,7 @@
 				4E52E4F01FE51DC000292FCF /* LaunchScreen.storyboard */,
 				4E52E4F31FE51DC000292FCF /* Info.plist */,
 				4E52E4EB1FE51DC000292FCF /* uride.xcdatamodeld */,
+				4EB095E62010E40B00F01F75 /* GoogleService-Info.plist */,
 			);
 			path = uride;
 			sourceTree = "<group>";
@@ -128,6 +179,36 @@
 			path = urideUITests;
 			sourceTree = "<group>";
 		};
+		4E6C14D11FEA32A80064313F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4E6C14D21FEA32B90064313F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4E6C14D31FEA32C10064313F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E6C14D41FEA33410064313F /* SigninVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4EB095E82010E98200F01F75 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				4EB095E92010E9AB00F01F75 /* AuthProvider.swift */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E52E50C1FE51DC000292FCF /* Build configuration list for PBXNativeTarget "uride" */;
 			buildPhases = (
+				A5027080FA778790B6A48DEE /* [CP] Check Pods Manifest.lock */,
 				4E52E4DD1FE51DC000292FCF /* Sources */,
 				4E52E4DE1FE51DC000292FCF /* Frameworks */,
 				4E52E4DF1FE51DC000292FCF /* Resources */,
+				65CC6AAE9114E854A43DE563 /* [CP] Embed Pods Frameworks */,
+				CC8B3E95E73E53FD5D5057DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E52E50F1FE51DC000292FCF /* Build configuration list for PBXNativeTarget "urideTests" */;
 			buildPhases = (
+				DC2E6EC96483F5629EB1A787 /* [CP] Check Pods Manifest.lock */,
 				4E52E4F41FE51DC000292FCF /* Sources */,
 				4E52E4F51FE51DC000292FCF /* Frameworks */,
 				4E52E4F61FE51DC000292FCF /* Resources */,
+				7357BFE9F6C190EC71A12D30 /* [CP] Embed Pods Frameworks */,
+				E7766D854B177D505ACE71E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E52E5121FE51DC000292FCF /* Build configuration list for PBXNativeTarget "urideUITests" */;
 			buildPhases = (
+				7F3827996ACA2025BC460538 /* [CP] Check Pods Manifest.lock */,
 				4E52E4FF1FE51DC000292FCF /* Sources */,
 				4E52E5001FE51DC000292FCF /* Frameworks */,
 				4E52E5011FE51DC000292FCF /* Resources */,
+				2EC97B1A94A7E3FE74534032 /* [CP] Embed Pods Frameworks */,
+				B8CE9ADB0AEFBA62030265EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E52E4F21FE51DC000292FCF /* LaunchScreen.storyboard in Resources */,
+				4EB095E72010E40B00F01F75 /* GoogleService-Info.plist in Resources */,
 				4E52E4EF1FE51DC000292FCF /* Assets.xcassets in Resources */,
 				4E52E4EA1FE51DC000292FCF /* Main.storyboard in Resources */,
 			);
@@ -257,6 +348,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EC97B1A94A7E3FE74534032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urideUITests/Pods-urideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65CC6AAE9114E854A43DE563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-uride/Pods-uride-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uride/Pods-uride-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7357BFE9F6C190EC71A12D30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urideTests/Pods-urideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F3827996ACA2025BC460538 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-urideUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5027080FA778790B6A48DEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-uride-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CE9ADB0AEFBA62030265EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urideUITests/Pods-urideUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8B3E95E73E53FD5D5057DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-uride/Pods-uride-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC2E6EC96483F5629EB1A787 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-urideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7766D854B177D505ACE71E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-urideTests/Pods-urideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4E52E4DD1FE51DC000292FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +511,8 @@
 			files = (
 				4E52E4E71FE51DC000292FCF /* ViewController.swift in Sources */,
 				4E52E4E51FE51DC000292FCF /* AppDelegate.swift in Sources */,
+				4EB095EA2010E9AB00F01F75 /* AuthProvider.swift in Sources */,
+				4E6C14D51FEA33410064313F /* SigninVC.swift in Sources */,
 				4E52E4ED1FE51DC000292FCF /* uride.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +665,7 @@
 		};
 		4E52E50D1FE51DC000292FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBF58C197B6B63091A83B58 /* Pods-uride.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = uride/Info.plist;
@@ -428,6 +678,7 @@
 		};
 		4E52E50E1FE51DC000292FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A031973A61AEFA32358ADD4E /* Pods-uride.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = uride/Info.plist;
@@ -440,6 +691,7 @@
 		};
 		4E52E5101FE51DC000292FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF4DFA14438DBA2A5740E5C /* Pods-urideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +706,7 @@
 		};
 		4E52E5111FE51DC000292FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F420DE1D5174938515DF9B /* Pods-urideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +721,7 @@
 		};
 		4E52E5131FE51DC000292FCF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B59EBF64DB74EBC107531B /* Pods-urideUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = urideUITests/Info.plist;
@@ -481,6 +735,7 @@
 		};
 		4E52E5141FE51DC000292FCF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744A9BA9159ABD5B56D307A0 /* Pods-urideUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = urideUITests/Info.plist;
@@ -511,6 +766,7 @@
 				4E52E50E1FE51DC000292FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E52E50F1FE51DC000292FCF /* Build configuration list for PBXNativeTarget "urideTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +775,7 @@
 				4E52E5111FE51DC000292FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E52E5121FE51DC000292FCF /* Build configuration list for PBXNativeTarget "urideUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +784,7 @@
 				4E52E5141FE51DC000292FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

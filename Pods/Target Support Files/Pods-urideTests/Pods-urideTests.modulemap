@@ -1,0 +1,6 @@
+framework module Pods_urideTests {
+  umbrella header "Pods-urideTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
