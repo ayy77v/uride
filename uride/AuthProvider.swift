@@ -22,6 +22,8 @@ struct LoginErrorCode {
     
     static let EMAIL_ALREADY_IN_USE = " email is already in use";
     
+    static let WEAK_PASSWORD = "password is too short" ;
+    
 }
 
 class AuthProvider {
@@ -48,6 +50,23 @@ class AuthProvider {
     
 }  // login func
     
+    func signUp(withEmail: String, password: String, loginHandler: LoginHandler?){
+        Auth.auth().createUser(withEmail: withEmail, password: password) { (user, error) in
+            
+            if error != nil {
+                self.handleErrors(err: error as! NSError, loginHandler: loginHandler)
+            } else {
+                if user?.uid != nil {
+                    // store the user to database
+                    // login in the user
+                    self.login(withEmail: withEmail, password: password, loginHandler: loginHandler)
+                }
+            }
+        
+        
+    } // signUp func
+        
+    }// class AuthProvider
     private func handleErrors(err: NSError, loginHandler: LoginHandler?) {
         if let errCode = AuthErrorCode(rawValue: err.code) {
           switch errCode {
@@ -66,6 +85,11 @@ class AuthProvider {
             
           case .emailAlreadyInUse:
             loginHandler?(LoginErrorCode.EMAIL_ALREADY_IN_USE);
+            break;
+            
+          case .weakPassword:
+            loginHandler?(LoginErrorCode.WEAK_PASSWORD);
+            
             break;
             
           default:

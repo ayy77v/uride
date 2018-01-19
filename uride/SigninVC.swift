@@ -41,15 +41,35 @@ class SigninVC: UIViewController {
                     self.alertTheUser(title: "Problem with Authentication", message: message!)
                 }
                 else {
+                    self.alertTheUser(title: "Login successfully", message: "welcome back")
                     print("login completed")
                 }
-            })
+            });
+        }else {
+            alertTheUser(title: "Email and Password are required", message: "please enter email and password")
         }
            }
 
     
     
     @IBAction func signUp(_ sender: Any) {
+        if emailTextField.text != "" && passwordTextField.text != ""
+        {
+            AuthProvider.Instance.signUp(withEmail: emailTextField.text! , password: passwordTextField.text! , loginHandler: { (message) in
+                if message != nil {
+                    self.alertTheUser(title: "Problem with creating a new user", message: message!)
+                } else {
+                    self.alertTheUser(title: "You just signed up", message: "welcome!")
+                    print("successfully create a user")
+                }
+
+            });
+            
+        }else {
+            alertTheUser(title: "Email and Password are required", message: "please enter email and password")
+
+        }
+    
     }
     
     private func alertTheUser(title: String, message: String) {
