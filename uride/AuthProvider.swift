@@ -67,6 +67,24 @@ class AuthProvider {
     } // signUp func
         
     }// class AuthProvider
+    
+    func logOut() -> Bool {
+    
+        if Auth.auth().currentUser != nil {
+            do {
+                try Auth.auth().signOut();
+                return true;
+            }catch {
+                return false;
+            }
+            
+        }
+    
+        return true;
+    }
+    
+    
+    
     private func handleErrors(err: NSError, loginHandler: LoginHandler?) {
         if let errCode = AuthErrorCode(rawValue: err.code) {
           switch errCode {

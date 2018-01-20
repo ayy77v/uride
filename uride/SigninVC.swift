@@ -10,6 +10,8 @@ import UIKit
 
 class SigninVC: UIViewController {
     
+    private let RIDER_SEGUE = "RiderVC"
+    
     
     @IBOutlet weak var emailTextField: UITextField!
     
@@ -33,6 +35,9 @@ class SigninVC: UIViewController {
     
     
     @IBAction func logIn(_ sender: Any) {
+        
+      
+        
         if emailTextField.text != "" && passwordTextField.text != ""
         {
             AuthProvider.Instance.login(withEmail: emailTextField.text!, password: passwordTextField.text!, loginHandler: { (message) in
@@ -41,9 +46,8 @@ class SigninVC: UIViewController {
                     self.alertTheUser(title: "Problem with Authentication", message: message!)
                 }
                 else {
-                    self.alertTheUser(title: "Login successfully", message: "welcome back")
-                    print("login completed")
-                }
+                      self.performSegue(withIdentifier: self.RIDER_SEGUE, sender: nil);
+                                 }
             });
         }else {
             alertTheUser(title: "Email and Password are required", message: "please enter email and password")
@@ -59,8 +63,8 @@ class SigninVC: UIViewController {
                 if message != nil {
                     self.alertTheUser(title: "Problem with creating a new user", message: message!)
                 } else {
-                    self.alertTheUser(title: "You just signed up", message: "welcome!")
-                    print("successfully create a user")
+                      self.performSegue(withIdentifier: self.RIDER_SEGUE, sender: nil);
+                   
                 }
 
             });

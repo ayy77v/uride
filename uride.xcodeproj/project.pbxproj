@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3970EB201323540033C656 /* RiderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3970EA201323540033C656 /* RiderVC.swift */; };
 		4E52E4E51FE51DC000292FCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52E4E41FE51DC000292FCF /* AppDelegate.swift */; };
 		4E52E4E71FE51DC000292FCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E52E4E61FE51DC000292FCF /* ViewController.swift */; };
 		4E52E4EA1FE51DC000292FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E52E4E81FE51DC000292FCF /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		09E123D0339EBAD6C503F4E5 /* Pods_urideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_urideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12B228D428F7E72487EB5C7E /* Pods_uride.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_uride.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3970EA201323540033C656 /* RiderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderVC.swift; sourceTree = "<group>"; };
 		4E52E4E11FE51DC000292FCF /* uride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uride.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E52E4E41FE51DC000292FCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E52E4E61FE51DC000292FCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				4E6C14D41FEA33410064313F /* SigninVC.swift */,
+				4E3970EA201323540033C656 /* RiderVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				4E52E4E71FE51DC000292FCF /* ViewController.swift in Sources */,
 				4E52E4E51FE51DC000292FCF /* AppDelegate.swift in Sources */,
 				4EB095EA2010E9AB00F01F75 /* AuthProvider.swift in Sources */,
+				4E3970EB201323540033C656 /* RiderVC.swift in Sources */,
 				4E6C14D51FEA33410064313F /* SigninVC.swift in Sources */,
 				4E52E4ED1FE51DC000292FCF /* uride.xcdatamodeld in Sources */,
 			);
